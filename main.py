@@ -8,8 +8,8 @@ import threading
 from flask import Flask
 
 # Thay token và chat ID của bạn vào đây
-TOKEN = "7762811631:AAGKdhfSW3uTzJFB6oztBv3Kkx9gVvFO8T8"
-CHAT_ID = "1466421467"
+TOKEN = "token"
+CHAT_ID = "chat_id"
 DATA_FILE = "tasks.json"
 
 bot = Bot(token=TOKEN)
